@@ -1,0 +1,198 @@
+/* font add  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===============navbar start====================  */
+.navicon {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+ul li {
+    font-size: 18;
+    color: #777777;
+    font-weight: 500;
+}
+
+.reg-btn {
+    color: #289BDE;
+    border: 1px solid #289BDE;
+}
+
+/* bannr start */
+.btn {
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: #777777;
+    color: #ffffff;
+    border: 1px solid #777777;
+}
+
+.mt {
+    margin-bottom: 130px;
+}
+
+/* ===============navbar End====================  */
+
+/* ===============populr start====================  */
+.poplr {
+    color: #1D1D1D;
+}
+
+.br {
+    border: 1px solid #E8E8E8;
+}
+
+h3 {
+    color: #289BDE;
+}
+
+.button {
+    text-align: center;
+}
+
+.bton {
+    text-decoration: none;
+    background-color: #289BDE;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.cls {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.bton:hover {
+    background-color: #1D1D1D;
+    color: #F4FAFD;
+}
+
+/* ===============populr End====================  */
+
+/* ===============explore start End====================  */
+
+.bg {
+    background-color: #F4FAFD;
+}
+
+.btone {
+    text-align: left;
+}
+
+/* ===============explore start End====================  */
+
+
+/* =============== rady start====================  */
+#bdr {
+    border: 1px solid #da1414;
+    border-radius: 5px;
+}
+
+
+/* =============== rady End====================  */
+
+
+/* =============== student start ====================  */
+.wid {
+    width: 600px;
+}
+
+/* =============== student End====================  */
+
+/* =============== footer start ====================  */
+
+footer {
+    background-color: #161616;
+    padding: 130px 0;
+    text-align: center;
+}
+
+footer .text {
+    color: #ffffff;
+
+}
+
+footer .icon i {
+    background-color: #F4FAFD;
+    color: #289BDE;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+footer .icon i:hover {
+    background-color: #289BDE;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* =============== footer End ====================  */
+
+
+/* =====================responsive start===============  */
+
+/* mobile devices */
+@media only screen and (max-width:688px) {}
+
+.smp {
+    font-size: .7rem !important;
+}
+
+.fs-1 {
+    font-size: 1.2rem !important;
+}
+
+.cls {
+    width: auto;
+}
+
+.ps-5 {
+    padding-left: 2rem !important;
+}
+
+.wid {
+    width: auto;
+    text-align: center;
+}
+
+.stdn {
+    text-align: center;
+}
+
+/* mobile devices */
+
+
+
+/* ipad devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .bg {
+        width: 50%;
+    }
+
+}
+
+/* ipad devices */
+/*==================== responsive End======================== */
